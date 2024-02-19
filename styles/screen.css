@@ -1,9 +1,10 @@
 body {
-    font-family: Helvetica, sans-serif;
-    color: #EAE8FF;
-    background: #2D3142;
+    font-family: Inter, sans-serif;
+    color: #424242;
+    background: #E9E9E9;
     padding: 0 40px;
     text-align: center;
+    
 }
 
 nav {
@@ -35,16 +36,84 @@ nav ul li a {
 
 h1 {
     font-size: 8em;
-    letter-spacing: -2px;
+    margin: auto;
+    width: 50%;
 }
 
-h1 strong {
-    background: rgb(34,193,195);
-    background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+h2{
+    font-size: 3em;
 }
 
-img.about {
-    opacity: 0.5;
+h3 {
+    text-align: left;
 }
+
+.big_img{
+    width: 80%;
+    height: 80%;
+}
+.little_img{
+    width: 5%;
+    height: 5%;
+    float: left;
+    /*margin-right: 10px;  Adjust as needed */
+}
+
+p{
+    text-align: justify;
+    width:70%;
+    margin:auto;
+
+}
+
+.container {
+    overflow: hidden; /* Clear floats */
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px; /* Add space between each container */
+}
+
+.box{
+    background-color: #D6D7D6;
+    border-radius: 10px;
+    width: 70%;
+    height: 100%;
+    margin:auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+    height: 50%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+label {
+    margin-bottom: 10px;
+}
+
+.input-container {
+    align-items: center;
+}
+
+input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px; /* Rounded corners for the left side of the input */
+    width:50%;
+    height:90%;
+}
+  
+.subscribe-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #FF3F3C;
+    color: #ffffff;
+    cursor: pointer;
+}
+  
